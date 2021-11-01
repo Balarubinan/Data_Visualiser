@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Odd Color Game</title>
+        <script src="colorGame.js"></script>
+        <style>
+            #gameBoard{
+                width: 600px;
+                height: 600px;
+                /* border-style: solid;
+                border-color:rgb(0, 0, 0); */
+                /* border-width: 5pt; */
+                /* align-self: center; */
+                /* background-color: chartreuse; */
+            }
+            #mainArea{
+               display: flex;
+               flex-direction: row;
+            }
+            
+            .center {
+            margin: auto;
+            width: 60%;
+            padding: 0px;
+            }
+            #b,#gameText{
+                border-radius: 10pt;
+                font-size: 25pt;
+            }
+        </style>
+    </head>
+    <body onload="create_sqr()" class="center">
+        <h1 class="center"> ODD COLOR GAME</h1>
+        <div id="mainArea">
+            <div id="gameBoard">
+            </div>
+            <div id="low">
+                <h2 id="gameText"></h2>
+                <button onclick="(()=>{score=-1;create_sqr(2)})()" id="b">New Game</button>
+            </div>
+        </div>
+    </body>
+</html>
