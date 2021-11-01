@@ -126,7 +126,7 @@ Project name => Data visualizer
     1) check for compaitabilty of the chart
 
 ###BUGS###
-1) multiple time option addition
-2) Nan values are selected as Float-able fields
+1) multiple time option addition => partially fixed
+2) Nan values are selected as Float-able fields => fixed
 
 */
